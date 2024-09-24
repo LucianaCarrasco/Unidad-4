@@ -1,0 +1,60 @@
+/*body {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.container > div {
+  background-color: aquamarine;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #0e4455;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px 20px;
+  grid-template-rows: auto 100px 200px;
+}
+
+.expanded {
+  grid-column: span 6;
+}
+
+.last {
+  grid-column: span 2;
+}
+*/
+
+.titulo {
+  text-align: center;
+  font-size: 60px;
+}
+/*Media queries*/
+/*Minetras el ancho sea menor que 1200px*/
+@media (max-width: 1200px) {
+  .titulo {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 750px) {
+  .titulo {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .titulo {
+    font-size: 30px;
+  }
+  p {
+    color: blueviolet;
+  }
+}
+
+@media (max-width: 360px) {
+  .titulo {
+    font-size: 20px;
+  }
+}
