@@ -1,0 +1,12 @@
+main {
+  width: 57vh;
+  max-width: 430px;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+img {
+  width: 120px;
+}
